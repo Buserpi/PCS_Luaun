@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bool-style.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_2609546_p490ajf765.css">
+    <title>PCS - Start GUI</title>
+</head>
+<body>
+    <div class="nv-navbar">
+        <div class="nv-menu-right">
+            <lu class="nv-menu-right-list">
+                <li class="icon iconfont icon-zhuye">游戏</li>
+                <li class="icon iconfont icon-dwn">下载</li>
+                <li class="icon iconfont icon-gongneng">功能</li>
+            </lu>
+        </div>
+    </div>
+    <!-- Login => Start Play -->
+    <div class="User-GUI">
+        <div class="User-Login-Mode">
+            <button class="User-Login-Mode-Mojang iconfont" style="display: flex;"><img src="./icon/1.webp" alt=""> Mojang</button>
+            <button class="User-Login-Mode-Microsoft iconfont icon-weiruan">Microsoft</button>
+            <button class="User-Login-Mode-offline iconfont icon-yonghu">Offline</button>
+            <div class="User-Setting-Memu">
+                <button class="User-Login-Mode-offline iconfont icon-shezhi"></button>
+            </div>
+        </div>
+        <!-- offline -->
+        <div class="User-Login-offlin" style="display: block;">
+            <h1>Offline / Login</h1>
+            <img class="User-Login-Image" src="http://q1.qlogo.cn/g?b=qq&nk=2974767963&s=640" alt="">
+            <input list="offlin-Login-list" id="offlin-Login" placeholder="游戏名称"/>
+            <datalist id="offlin-Login-list">
+                <option value=""></option>
+            </datalist>
+        </div>
+        <!-- Mojang -->
+        <div class="User-Login-Mojang" style="display: none;">
+            <h1>Mojang / Login</h1>
+            <div>
+                <img class="User-Login-Image" src="http://q1.qlogo.cn/g?b=qq&nk=2974767963&s=640" alt="">
+                
+            </div>
+            <div class="User-Login-Mojang-Mali">
+                <i class="iconfont icon-youjian"></i>
+                <span>pppwwi@qq.com</span>
+            </div>
+        </div>
+    </div>
+    <div class="rigth-nv-class">
+        <div class="rigth-nv-list">
+            <lu class="nv-menu-right-list">
+                <li class="icon iconfont icon-zhuye"></li>
+                <li class="icon iconfont icon-dwn"></li>
+                <li class="icon iconfont icon-gongneng"></li>
+            </lu>
+        </div>
+        <div class="">
+            
+        </div>
+    </div>
+</body>
+</html>

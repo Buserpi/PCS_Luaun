@@ -1,0 +1,151 @@
+*{
+    transition: 0.35s all;
+}
+:root{
+    --pcs-color: rgba(10 145 117)
+}
+html,body{
+    background-color: #f8f8f8;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.nv-menu-right{
+    background-color: var(--pcs-color);
+}
+
+.nv-menu-right-list > li:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+.nv-menu-right{
+    width: 72px;
+    height: 100vh;
+    display: grid;
+    float: left;
+}
+.nv-menu-right-list{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -25%);
+    text-align: center;
+}
+.nv-menu-right-list li{
+    padding: 4px 14px 4px 14px;
+    display: grid;
+    color: white;
+    font-size: 16px;
+    
+}
+.User-GUI{
+    position: relative;
+    width: 420px;
+    height: 100vh;
+    left: 0px;
+    float: left;
+    background-color: white;
+}
+.User-Login-Image{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    margin: 8px auto;
+    border-radius: 50%;
+}
+.User-Login-Mode{
+    width: 100ch;
+    display: flex;
+    padding: 4px;
+}
+.User-Login-Mode button{
+    padding: 8px;
+    border: none;
+    color: white;
+    background: var(--pcs-color);
+}
+.User-Setting-Memu{
+    position: fixed;
+    right: 8px;
+}
+.User-Login-Mode button:hover{
+    padding: 8px;
+    border: none;
+    color: white;
+    background: rgb(255 255 255 / 25%);
+}
+.User-Login-offlin{
+    position: absolute;
+    transform: translate(0,75%);
+    top: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+}
+.User-Login-offlin input{
+    width: 75%;
+    padding: 8px;
+    margin: 16px auto;
+}
+.User-Login-offlin input:focus{
+    background-color: white;
+    box-shadow: 0px 0px 14px 1px rgb(0 0 0 / 40%);
+    border: none;
+}
+.User-Login-offlin input:focus-visible{
+    border: none;
+}
+.User-Login-Mode{
+    background-color: var(--pcs-color);
+}
+.User-Login-Mode-Mojang img{
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+}
+.User-Login-offlin h1{
+    font-weight: 500;
+    margin: 0;
+    color: #333;
+}
+/* Mojang */
+.User-Login-Mojang{
+    position: absolute;
+    transform: translate(0,50%);
+    top: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.User-Login-Mojang h1{
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 64px;
+    color: #333;
+}
+.User-Login-Mojang-Mali{
+    display: flex;
+    font-size: 12px;
+    color: #333;
+    margin: 0 auto;
+}
+.rigth-nv-class{
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    top: 10vh;
+    height: 100vh;
+    width: 40ch;
+    box-shadow: 0px 0px 14px 1px rgb(0 0 0 / 10%);
+}
+.rigth-nv-list .nv-menu-right-list>li{
+    color: black;
+    display: flex;
+}
